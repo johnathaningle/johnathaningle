@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Installing Anaconda on Ubuntu/Mint - John Ingle - Software Development </title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="referrer" content="no-referrer">
+    <meta name="description" content="" />
+    <meta property="og:site_name" content="John Ingle - Software Development" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://johnathaningle.github.io/posts/installing-anaconda-on-ubuntu-mint/" />
+    <meta property="og:title" content="Installing Anaconda on Ubuntu/Mint" />
+    <meta property="og:image" content="https://johnathaningle.github.io/" />
+    <meta property="og:description" content="" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <meta name="twitter:title" content="Installing Anaconda on Ubuntu/Mint" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="https://johnathaningle.github.io/" />
+
+    <link rel="canonical" href="https://johnathaningle.github.io/posts/installing-anaconda-on-ubuntu-mint/">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://johnathaningle.github.io/css/custom.css" />
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github-gist.min.css" integrity="sha512-od7JLoOTxM8w/HSKGzP9Kexc20K9p/M2zxSWsd7H1e4Ctf+8SQFtCWEZnW5u6ul5ehSECa5QmOk9ju2nQMmlVA==" crossorigin="anonymous" />
+    
+
+    
+
+    <link rel="shortcut icon"
+        href="https://johnathaningle.github.io/images/favicon.png">
+
+    
+    <link href="https://johnathaningle.github.io/index.xml" rel="alternate" type="application/rss+xml" title="John Ingle - Software Development" />
+    
+</head>
+
+<body>
+    
+    <div class="mt-xl header">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <a href="https://johnathaningle.github.io/">
+                    <h1 class="name">Johnathan Ingle</h1>
+                </a>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <ul class="nav nav-primary">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/">
+                        
+                        Home
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/about/">
+                        
+                        About
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/johnathaningle">
+                        
+                        GitHub
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.xml">
+                        
+                        Subscribe
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-lg-8">
+                    <h1 class="mx-0 mx-md-4">Installing Anaconda on Ubuntu/Mint</h1>
+                    <div class="markdown">
+                        
+    <p>This article documents how to install Anaconda on Debian based systems.</p>
+<p>Mint comes pre-installed with Python (Version 3.x) and legacy Python (Version 2.7). You can confirm the legacy version of Python is installed by opening up a terminal.</p>
+<p>In the terminal type:</p>
+<p><em>$</em> <strong>python</strong></p>
+<p>For testing python 3.x installation, type:</p>
+<p><em>$</em> <strong>python3</strong></p>
+<p>You will most likely see Python Version 3.x is also installed. You can use the 3.x Version of Python, but each time a new package needs to be downloaded, the <code>$ pip3 install</code> command must be used.</p>
+<p>Install the Anaconda distribution of Python to follow the examples in the book without the need to install additional third-party packages.</p>
+<h4 id="steps">Steps:</h4>
+<ol>
+<li>Visit <a href="https://www.anaconda.com/download/">Anaconda.com/downloads</a></li>
+<li>Select Linux</li>
+<li>Copy the bash (.sh file) installer link</li>
+<li>Use <code>wget</code> to download the bash installer</li>
+<li>Run the bash script to install <strong>Anaconda3</strong></li>
+<li><code>source</code> the <code>.bash-rc</code> file to add Anaconda to your <code>PATH</code></li>
+<li>Start the Python REPL</li>
+</ol>
+<h3 id="1-visit-the-anaconda-downloads-page">1. Visit the Anaconda downloads page</h3>
+<p>Go to the following link: <a href="https://www.anaconda.com/download/">Anaconda.com/downloads</a></p>
+<h3 id="2-select-linux">2. Select Linux</h3>
+<p>On the downloads page, select the Linux operating system</p>
+<h3 id="3-copy-the-bash-sh-file-installer-link">3. Copy the bash (.sh file) installer link</h3>
+<p>In the <strong>Python 3.x Version*</strong> box, right-click on the [64-Bit(x86) Installer] link. Select [copy link address].</p>
+<p><img src="images/copylinkaddress.png" alt=""></p>
+<h3 id="4-use-wget-to-download-the-bash-installer">4. Use <code>wget</code> to download the bash installer</h3>
+<p>Now that the bash installer (.sh file) link is stored on the clipboard, use <code>wget</code> to download the installer script. In a terminal, <code>cd</code> into the home directory and make a new directory called <code>tmp</code>. <code>cd</code> into <code>tmp</code> and use <code>wget</code> to download the installer. Although the installer is a bash script, it is still quite large and the download will not be immediate (Note the link below includes <code>&lt;release&gt;</code>. the specific release depends on when you download the installer).</p>
+<p>$ <strong>cd</strong></p>
+<p>$ <strong>mkdir tmp</strong></p>
+<p>$ <strong>cd tmp</strong></p>
+<p>$ <strong>wget</strong> <a href="https://repo.continuum.io/archive/Anaconda3.sh">https://repo.continuum.io/archive/Anaconda3.sh</a></p>
+<h3 id="5-run-the-bash-script-to-install-anaconda3">5. Run the bash script to install <strong>Anaconda3</strong></h3>
+<p>With the bash installer script downloaded, run the <strong><em>.sh</em></strong> script to install <strong>Anaconda3</strong>. Ensure you are in the directory where the installer script downloaded:</p>
+<p>$ <strong>ls</strong><br>
+Anaconda3-5.2.0-Linux-x86_64.sh</p>
+<p>Run the installer script with bash.</p>
+<p>$ <strong>bash</strong> Anaconda3-5.2.0-Linux-x86_64.sh</p>
+<p>Accept the Licence Agreement and allow Anaconda to be added to your <code>PATH</code>. By adding Anaconda to your <code>PATH</code>, the Anaconda distribution of Python will be called when you type <code>$ python</code> in a terminal.</p>
+<h4 id="6-source-the-bash-rc-file-to-add-anaconda-to-your-path">6. <code>source</code> the <code>.bash-rc</code> file to add Anaconda to your <code>PATH</code></h4>
+<p>Now that <strong>Anaconda3</strong> is installed and <strong>Anaconda3</strong> is added to our <code>PATH</code>, <code>source</code> the <code>.bashrc</code> file to load the new <code>PATH</code> environment variable into the current terminal session. Note the <code>.bashrc</code> file is in the home directory. You can see it with <code>$ ls -a</code>.</p>
+<p>$ <strong>cd</strong> ~</p>
+<p>$ <strong>source</strong> .bashrc</p>
+<h4 id="7-start-the-python-repl">7. Start the Python REPL</h4>
+<p>To verify the installation is complete, open Python from the command line:</p>
+<p>$ <strong>python</strong></p>
+<p>Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 18:21:58) [GCC 7.2.0] on linux Type &ldquo;help&rdquo;, &ldquo;copyright&rdquo;, &ldquo;credits&rdquo; or &ldquo;license&rdquo; for more information. &raquo;&gt;</p>
+<p>If you see Python 3.6 from Anaconda listed, your installation is complete. To exit the Python REPL, type:</p>
+<p>&gt;&gt; exit()</p>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="comments">
+    <div class="py-3 content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-lg-8">
+                    <div class="comments">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+
+    
+
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js" defer></script>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js" defer></script>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/stan.min.js" defer></script>
+        
+        <script>
+            window.addEventListener('load', function() {
+                hljs.initHighlighting();
+            }, true);
+        </script>
+    
+
+    
+
+    
+    
+        
+<script src="/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>flask on John Ingle - Software Development</title>
+    <link>https://johnathaningle.github.io/tags/flask/</link>
+    <description>Recent content in flask on John Ingle - Software Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://johnathaningle.github.io/tags/flask/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CS50 Web Development with Python and Javascript</title>
+      <link>https://johnathaningle.github.io/posts/cs50-web-development-with-python-and-javascript/</link>
+      <pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/cs50-web-development-with-python-and-javascript/</guid>
+      <description>Over the winter I had made it my mission to complete the CS50 web development course. I found that Harvard&amp;rsquo;s CS50 course was more than your usual YouTube tutorial! This class forces the student to learn on their own, think creatively and come up with their own ideas. For example project, one has a list of specifications that your program must meet. The specs cover everything from user logins, database search query&amp;rsquo;s, AJAX, API&amp;rsquo;s, version control and much much more!</description>
+    </item>
+    
+  </channel>
+</rss>

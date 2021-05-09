@@ -5,6 +5,79 @@
     <link>https://johnathaningle.github.io/categories/</link>
     <description>Recent content in Categories on John Ingle - Software Development</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://johnathaningle.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://johnathaningle.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>medium</title>
+      <link>https://johnathaningle.github.io/categories/medium/</link>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/categories/medium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>post</title>
+      <link>https://johnathaningle.github.io/categories/post/</link>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/categories/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://johnathaningle.github.io/categories/python/</link>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virtualization</title>
+      <link>https://johnathaningle.github.io/categories/virtualization/</link>
+      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/categories/virtualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine-learning</title>
+      <link>https://johnathaningle.github.io/categories/machine-learning/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/categories/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mathmatics</title>
+      <link>https://johnathaningle.github.io/categories/mathmatics/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/categories/mathmatics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web-applications</title>
+      <link>https://johnathaningle.github.io/categories/web-applications/</link>
+      <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/categories/web-applications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network-security</title>
+      <link>https://johnathaningle.github.io/categories/network-security/</link>
+      <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/categories/network-security/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

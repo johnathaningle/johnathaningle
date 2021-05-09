@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> VirtualBox: Enabling RDP between windows 10 host and windows 10 VM - John Ingle - Software Development </title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="referrer" content="no-referrer">
+    <meta name="description" content="" />
+    <meta property="og:site_name" content="John Ingle - Software Development" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://johnathaningle.github.io/posts/virtualbox-enabling-rdp-between-windows-10-host-and-windows-10-vm/" />
+    <meta property="og:title" content="VirtualBox: Enabling RDP between windows 10 host and windows 10 VM" />
+    <meta property="og:image" content="https://johnathaningle.github.io/" />
+    <meta property="og:description" content="" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <meta name="twitter:title" content="VirtualBox: Enabling RDP between windows 10 host and windows 10 VM" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="https://johnathaningle.github.io/" />
+
+    <link rel="canonical" href="https://johnathaningle.github.io/posts/virtualbox-enabling-rdp-between-windows-10-host-and-windows-10-vm/">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://johnathaningle.github.io/css/custom.css" />
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github-gist.min.css" integrity="sha512-od7JLoOTxM8w/HSKGzP9Kexc20K9p/M2zxSWsd7H1e4Ctf+8SQFtCWEZnW5u6ul5ehSECa5QmOk9ju2nQMmlVA==" crossorigin="anonymous" />
+    
+
+    
+
+    <link rel="shortcut icon"
+        href="https://johnathaningle.github.io/images/favicon.png">
+
+    
+    <link href="https://johnathaningle.github.io/index.xml" rel="alternate" type="application/rss+xml" title="John Ingle - Software Development" />
+    
+</head>
+
+<body>
+    
+    <div class="mt-xl header">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <a href="https://johnathaningle.github.io/">
+                    <h1 class="name">Johnathan Ingle</h1>
+                </a>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <ul class="nav nav-primary">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/">
+                        
+                        Home
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/about/">
+                        
+                        About
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/johnathaningle">
+                        
+                        GitHub
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.xml">
+                        
+                        Subscribe
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-lg-8">
+                    <h1 class="mx-0 mx-md-4">VirtualBox: Enabling RDP between windows 10 host and windows 10 VM</h1>
+                    <div class="markdown">
+                        
+    <p>For practice I was setting up a personal home lab for network and penetration testing. When trying to allow everything to run as if it was one LAN network I ran into multiple configuration errors.</p>
+<h4 id="problem">Problem:</h4>
+<p>Windows 10 host machine cannot RDP into virtual machine. All ping packets are dropped even though the virtual machine has internet connectivity.</p>
+<h4 id="solution">Solution:</h4>
+<p>In VirtualBox, configure the network settings of the host machine to <strong>use bridged connection instead</strong> of the default NAT connection setting. This should hopefully allow the ping command to be used to test the connection between the host and guest.</p>
+<p>To get RDP working, <strong>enable remote assistance</strong> on the guest machine and the host machine. Try to RDP into the virtual machine.</p>
+<p>If that doesn’t work, check the <strong>network and sharing center</strong>. Go to <strong>advanced sharing settings</strong>. Under the private network, <strong>enable network discovery</strong>. Try to RDP into the guest machine again.</p>
+<p>If you get an error such as: Remote Desktop Authentication Error Has Occurred. The function requested is not supported (like I did), <strong>change your group policy settings</strong>. Change the Group Policy on your local client to use the vulnerable setting. Run gpedit.msc and go to the following computer configuration &raquo; Administrative templates &raquo; System &raquo; Credentials Delegation &raquo; Encryption Oracle Remediation. Change setting to vulnerable.</p>
+<ul>
+<li>
+<p><img src="images/discover.png" alt=""></p>
+<p>Network Discovery</p>
+</li>
+<li>
+<p><img src="images/REMOTE-ASSIST.png" alt=""></p>
+<p>Remote Assistance</p>
+</li>
+<li>
+<p><img src="images/VB-NET-SETTINGS.png" alt=""></p>
+<p>Bridged Connection</p>
+</li>
+<li>
+<p><img src="images/gpsettings-1024x622.png" alt=""></p>
+<p>Group Policy Setting Location</p>
+</li>
+<li>
+<p><img src="images/gperror-1.png" alt=""></p>
+<p>Group Policy Error</p>
+</li>
+<li>
+<p><img src="images/vulnerable.png" alt=""></p>
+<p>Vulnerable Oracle Setting</p>
+</li>
+</ul>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="comments">
+    <div class="py-3 content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-lg-8">
+                    <div class="comments">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+
+    
+
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js" defer></script>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js" defer></script>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/stan.min.js" defer></script>
+        
+        <script>
+            window.addEventListener('load', function() {
+                hljs.initHighlighting();
+            }, true);
+        </script>
+    
+
+    
+
+    
+    
+        
+
+    
+</body>
+
+</html>

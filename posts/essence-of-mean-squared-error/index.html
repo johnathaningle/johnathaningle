@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Essence of Mean Squared Error - John Ingle - Software Development </title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="referrer" content="no-referrer">
+    <meta name="description" content="" />
+    <meta property="og:site_name" content="John Ingle - Software Development" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://johnathaningle.github.io/posts/essence-of-mean-squared-error/" />
+    <meta property="og:title" content="Essence of Mean Squared Error" />
+    <meta property="og:image" content="https://johnathaningle.github.io/" />
+    <meta property="og:description" content="" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <meta name="twitter:title" content="Essence of Mean Squared Error" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="https://johnathaningle.github.io/" />
+
+    <link rel="canonical" href="https://johnathaningle.github.io/posts/essence-of-mean-squared-error/">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://johnathaningle.github.io/css/custom.css" />
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github-gist.min.css" integrity="sha512-od7JLoOTxM8w/HSKGzP9Kexc20K9p/M2zxSWsd7H1e4Ctf+8SQFtCWEZnW5u6ul5ehSECa5QmOk9ju2nQMmlVA==" crossorigin="anonymous" />
+    
+
+    
+
+    <link rel="shortcut icon"
+        href="https://johnathaningle.github.io/images/favicon.png">
+
+    
+    <link href="https://johnathaningle.github.io/index.xml" rel="alternate" type="application/rss+xml" title="John Ingle - Software Development" />
+    
+</head>
+
+<body>
+    
+    <div class="mt-xl header">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <a href="https://johnathaningle.github.io/">
+                    <h1 class="name">Johnathan Ingle</h1>
+                </a>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <ul class="nav nav-primary">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/">
+                        
+                        Home
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/about/">
+                        
+                        About
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/johnathaningle">
+                        
+                        GitHub
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.xml">
+                        
+                        Subscribe
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-lg-8">
+                    <h1 class="mx-0 mx-md-4">Essence of Mean Squared Error</h1>
+                    <div class="markdown">
+                        
+    <h3 id="what-you-need-to-know">What you need to know:</h3>
+<p>The smaller the means squared error, the closer you are to finding the line of best fit.</p>
+<p><img src="images/scatter-line.png" alt=""></p>
+<p>Depending on your data, it may be impossible to get a very small value for the mean squared error. </p>
+<p><img src="images/scatter-line-wide.png" alt=""></p>
+<h3 id="advantage"><strong>Advantage:</strong></h3>
+<p>It is useful if we have unexpected values that we should care about. Abnormally high or low values should be paid attention to.</p>
+<h3 id="disadvantage"><strong>Disadvantage:</strong></h3>
+<p>If we make a single very bad prediction, the squaring will make the error even worse and it may skew the metric towards overestimating the model’s badness. That is a particularly problematic behavior if we have noisy data or data that is unreliable. Even a “perfect” model may have a high MSE in that situation, it becomes hard to judge how well the model is performing. However, if all the errors are small (smaller than 1) the opposite effect is felt: we may underestimate the model’s badness.</p>
+<p><strong>Note that</strong> if we want to have a constant prediction the best one will be the <strong>mean value of the target values.</strong> It can be found by setting the derivative of our total error with respect to that constant to zero, and find it from this equation.</p>
+<h3 id="definitions"><strong>Definition(s):</strong></h3>
+<p>In regression analysis, &ldquo;<strong>mean squared error</strong>&rdquo;, often referred to as mean squared prediction error or &ldquo;<strong>out-of-sample mean squared error</strong>&rdquo;, can refer to the <strong>mean value of the squared deviations of the predictions from the true values</strong>.</p>
+<h2 id="understanding-it-visually">Understanding it visually:</h2>
+<p><img src="images/mean-squared-error.png" alt=""></p>
+<p>See those tiny blue vertical lines that connect the circles (points) to the estimated line (the straight blue line pointing at an upward angle)? MSE basically measures average squared error of our predictions. For each point, it calculates <strong>square difference between the predictions and the target</strong> and then <strong>averages</strong> those values.</p>
+<p><img src="images/mse.png" alt=""></p>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="comments">
+    <div class="py-3 content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-lg-8">
+                    <div class="comments">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+
+    
+
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js" defer></script>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js" defer></script>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/stan.min.js" defer></script>
+        
+        <script>
+            window.addEventListener('load', function() {
+                hljs.initHighlighting();
+            }, true);
+        </script>
+    
+
+    
+
+    
+    
+        
+
+    
+</body>
+
+</html>

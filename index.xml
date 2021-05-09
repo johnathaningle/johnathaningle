@@ -17,6 +17,150 @@
     </item>
     
     <item>
+      <title>Installing Anaconda on Ubuntu/Mint</title>
+      <link>https://johnathaningle.github.io/posts/installing-anaconda-on-ubuntu-mint/</link>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/installing-anaconda-on-ubuntu-mint/</guid>
+      <description>This article documents how to install Anaconda on Debian based systems.
+Mint comes pre-installed with Python (Version 3.x) and legacy Python (Version 2.7). You can confirm the legacy version of Python is installed by opening up a terminal.
+In the terminal type:
+$ python
+For testing python 3.x installation, type:
+$ python3
+You will most likely see Python Version 3.x is also installed. You can use the 3.x Version of Python, but each time a new package needs to be downloaded, the $ pip3 install command must be used.</description>
+    </item>
+    
+    <item>
+      <title>Real Estate Data Visualization- Part 1</title>
+      <link>https://johnathaningle.github.io/posts/real-estate-data-visualization-part-1/</link>
+      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/real-estate-data-visualization-part-1/</guid>
+      <description>As a former real estate agent, aspiring investor, and software engineer, I have set out to learn more about the data behind real estate. Zillow is an excellent resource to find an overview of the trends going on in the real estate market. For this visualization, I have taken the time to compile the average sales price for residential homes for each state yearly. Zillow provided me with the average sale price of a house for a given state over one month.</description>
+    </item>
+    
+    <item>
+      <title>Essence of Mean Squared Error</title>
+      <link>https://johnathaningle.github.io/posts/essence-of-mean-squared-error/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/essence-of-mean-squared-error/</guid>
+      <description>What you need to know: The smaller the means squared error, the closer you are to finding the line of best fit.
+Depending on your data, it may be impossible to get a very small value for the mean squared error. Advantage: It is useful if we have unexpected values that we should care about. Abnormally high or low values should be paid attention to.
+Disadvantage: If we make a single very bad prediction, the squaring will make the error even worse and it may skew the metric towards overestimating the model’s badness.</description>
+    </item>
+    
+    <item>
+      <title>Coursera Machine Learning Introduction Quiz</title>
+      <link>https://johnathaningle.github.io/posts/coursera-machine-learning-introduction-quiz/</link>
+      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/coursera-machine-learning-introduction-quiz/</guid>
+      <description>Question 1 A computer program is said to learn from experience E with respect to some task T and some performance measure P if its performance on T, as measured by P, improves with experience E. Suppose we feed a learning algorithm a lot of historical weather data, and have it learn to predict weather. In this setting, what is E?
+Answer The process of the algorithm examining a large amount of historical weather data.</description>
+    </item>
+    
+    <item>
+      <title>Supervised vs Unsupervised Learning</title>
+      <link>https://johnathaningle.github.io/posts/supervised-vs-unsupervised-learning/</link>
+      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/supervised-vs-unsupervised-learning/</guid>
+      <description>Supervised Learning In supervised learning, we are given a data set and already know what our correct output should look like, having the idea that there is a relationship between the input and the output.
+Supervised learning problems are categorized into &amp;ldquo;regression&amp;rdquo; and &amp;ldquo;classification&amp;rdquo; problems. In a regression problem, we are trying to predict results within a continuous output, meaning that we are trying to map input variables to some continuous function.</description>
+    </item>
+    
+    <item>
+      <title>Simple Derivatives in Python</title>
+      <link>https://johnathaningle.github.io/posts/simple-derivatives-in-python/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/simple-derivatives-in-python/</guid>
+      <description>A rocket has been programmed to follow the path $y = x^2$ in space (from left to right along the curve, as seen in the margin figure), but an emergency has arisen and the crew must return to their base, which is located at coordinates (3, 5). At what point on the path $y = x^2$ should the captain turn off the engines so that the ship will coast along a path tangent to the curve to return to the base?</description>
+    </item>
+    
+    <item>
+      <title>Jupyter Notebooks in WordPress</title>
+      <link>https://johnathaningle.github.io/posts/jupyter-notebooks-in-wordpress/</link>
+      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/jupyter-notebooks-in-wordpress/</guid>
+      <description>The quickest way to embed your Jupyter notebooks in WordPress, or any web page, is to create a gist.
+ Ensure you have a GitHub account Go to: https://gist.github.com/ Give your gist a file name and include the .ipynb file extension (important) Using a text editor, copy the contents of your [filename].ipynb into the gist. Create the gist as a public gist. Share!  </description>
+    </item>
+    
+    <item>
+      <title>Testing the Embedding of Raw Html in Jupyter Notebooks</title>
+      <link>https://johnathaningle.github.io/posts/testing-the-embedding-of-raw-html-in-jupyter-notebooks/</link>
+      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/testing-the-embedding-of-raw-html-in-jupyter-notebooks/</guid>
+      <description>/**
+* Primary styles
+*
+* Author: Jupyter Development Team
+*/
+/** WARNING IF YOU ARE EDITTING THIS FILE, if this is a .css file, It has a lot
+* of chance of beeing generated from the ../less/[samename].less file, you can
+* try to get back the less file by reverting somme commit in history
+**/
+/*
+* We&amp;rsquo;ll try to get something pretty, so we
+* have some strange css to have the scroll bar on</description>
+    </item>
+    
+    <item>
+      <title>Automate English 102</title>
+      <link>https://johnathaningle.github.io/posts/automate-english-102/</link>
+      <pubDate>Sun, 23 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/automate-english-102/</guid>
+      <description>English Paper Word Counter Count the words excluding perenthesis and quotations
+Get Word Count
+The number of words in your essay is:</description>
+    </item>
+    
+    <item>
+      <title>CS50 Web Development with Python and Javascript</title>
+      <link>https://johnathaningle.github.io/posts/cs50-web-development-with-python-and-javascript/</link>
+      <pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/cs50-web-development-with-python-and-javascript/</guid>
+      <description>Over the winter I had made it my mission to complete the CS50 web development course. I found that Harvard&amp;rsquo;s CS50 course was more than your usual YouTube tutorial! This class forces the student to learn on their own, think creatively and come up with their own ideas. For example project, one has a list of specifications that your program must meet. The specs cover everything from user logins, database search query&amp;rsquo;s, AJAX, API&amp;rsquo;s, version control and much much more!</description>
+    </item>
+    
+    <item>
+      <title>VirtualBox: Enabling RDP between windows 10 host and windows 10 VM</title>
+      <link>https://johnathaningle.github.io/posts/virtualbox-enabling-rdp-between-windows-10-host-and-windows-10-vm/</link>
+      <pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/virtualbox-enabling-rdp-between-windows-10-host-and-windows-10-vm/</guid>
+      <description>For practice I was setting up a personal home lab for network and penetration testing. When trying to allow everything to run as if it was one LAN network I ran into multiple configuration errors.
+Problem: Windows 10 host machine cannot RDP into virtual machine. All ping packets are dropped even though the virtual machine has internet connectivity.
+Solution: In VirtualBox, configure the network settings of the host machine to use bridged connection instead of the default NAT connection setting.</description>
+    </item>
+    
+    <item>
+      <title>Web Application Security</title>
+      <link>https://johnathaningle.github.io/posts/web-application-security/</link>
+      <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/web-application-security/</guid>
+      <description>Rise of the Web App Over the past few years we have seen tremendous growth in the rise of browser-based applications. Native applications are still popular however the trend is moving towards web apps that run directly from the browser.
+Web applications are convenient by the fact that all data can be synced between devices and stored in the cloud. Gone are the days of configuring, updating and syncing the data on native apps.</description>
+    </item>
+    
+    <item>
+      <title>Black Hat Python ARP Cache Poisioning With Scapy</title>
+      <link>https://johnathaningle.github.io/posts/black-hat-python-arp-cache-poisioning-with-scapy/</link>
+      <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/black-hat-python-arp-cache-poisioning-with-scapy/</guid>
+      <description>Below is a network security project I made on poisoning the ARP cache on a local area network. I successfully intercepted packets between my wireless router and my target windows host. All traffic was monitored and printed to the console. In the projects current revision, it has the ability to print out HTTP packets on port 80 that contain strings likely to indicate that a user submitted a username or password.</description>
+    </item>
+    
+    <item>
       <title></title>
       <link>https://johnathaningle.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Real Estate Data Visualization- Part 1 - John Ingle - Software Development </title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="referrer" content="no-referrer">
+    <meta name="description" content="" />
+    <meta property="og:site_name" content="John Ingle - Software Development" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://johnathaningle.github.io/posts/real-estate-data-visualization-part-1/" />
+    <meta property="og:title" content="Real Estate Data Visualization- Part 1" />
+    <meta property="og:image" content="https://johnathaningle.github.io/" />
+    <meta property="og:description" content="" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <meta name="twitter:title" content="Real Estate Data Visualization- Part 1" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="https://johnathaningle.github.io/" />
+
+    <link rel="canonical" href="https://johnathaningle.github.io/posts/real-estate-data-visualization-part-1/">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://johnathaningle.github.io/css/custom.css" />
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github-gist.min.css" integrity="sha512-od7JLoOTxM8w/HSKGzP9Kexc20K9p/M2zxSWsd7H1e4Ctf+8SQFtCWEZnW5u6ul5ehSECa5QmOk9ju2nQMmlVA==" crossorigin="anonymous" />
+    
+
+    
+
+    <link rel="shortcut icon"
+        href="https://johnathaningle.github.io/images/favicon.png">
+
+    
+    <link href="https://johnathaningle.github.io/index.xml" rel="alternate" type="application/rss+xml" title="John Ingle - Software Development" />
+    
+</head>
+
+<body>
+    
+    <div class="mt-xl header">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <a href="https://johnathaningle.github.io/">
+                    <h1 class="name">Johnathan Ingle</h1>
+                </a>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <ul class="nav nav-primary">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/">
+                        
+                        Home
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/about/">
+                        
+                        About
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/johnathaningle">
+                        
+                        GitHub
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.xml">
+                        
+                        Subscribe
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-lg-8">
+                    <h1 class="mx-0 mx-md-4">Real Estate Data Visualization- Part 1</h1>
+                    <div class="markdown">
+                        
+    <p>As a former real estate agent, aspiring investor, and software engineer, I have set out to learn more about the data behind real estate. Zillow is an excellent resource to find an overview of the trends going on in the real estate market. For this visualization, I have taken the time to compile the average sales price for residential homes for each state yearly. Zillow provided me with the average sale price of a house for a given state over one month. The following visualization shows the Year-Over-Year calculation of home prices based on Zillow&rsquo;s data.</p>
+<p><a href="https://youtu.be/44I3730gVeI">https://youtu.be/44I3730gVeI</a></p>
+<p>To create this visualization, I used the plotly data visualization framework to export a Choropleth map. Colors are automatically generated to correspond a to specific value in the dataset. The code for this project is very simple. If you would like to take a look you can <a href="https://gist.github.com/jingle1000/c0f7a9303d51afc1cb3136a94f24de85">view my Gist on GitHub</a>.</p>
+<p>Below shows the data that my program consumed:</p>
+<p><img src="images/Calculated-Data.png" alt=""></p>
+<p>One of the challenges that I faced when creating this visualization is having the ability to specify the minimum and maximum values of for the chart. I never managed to figure it out. In order to get a minimum viable data visualization out the door, I ended up creating two visualization sequences.</p>
+<p>For the first sequence, I hard coded Arkansas and Alabama to the minimum value and maximum value in my dataset. This forced plotly to normalize the colors for the rest of the states to be within that range.</p>
+<p><img src="images/1s-1.gif" alt=""></p>
+<p>In Adobe Premiere, I masked the part of the image sequence containing Hawaii and Alaska. This provided me with a normalized data visualization for Hawaii and Alaska. I can then overlay this masked portion onto a separate visualization <em>(one where the data for the lower 48 states is correct.)</em></p>
+<p><img src="images/mask-1024x530.png" alt=""></p>
+<p>Then I hard coded Hawaii and Alaska to be the minimum and maximum values from my dataset. The masked out portion above gets overlayed on top of a visualization that looks like this:</p>
+<p><img src="images/2sgif.gif" alt=""></p>
+<p>The resulting composite looks like this:</p>
+<p><img src="images/Sequence-06.gif" alt=""></p>
+<p>From there, there was a few hours of manual tweaking and artitisic adjustments to transform the visualization into something YouTube ready. I hope you all found this to be interesting. Let me know if you have any topics that you would like to see covered.</p>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="comments">
+    <div class="py-3 content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-lg-8">
+                    <div class="comments">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+
+    
+
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js" defer></script>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js" defer></script>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/stan.min.js" defer></script>
+        
+        <script>
+            window.addEventListener('load', function() {
+                hljs.initHighlighting();
+            }, true);
+        </script>
+    
+
+    
+
+    
+    
+        
+
+    
+</body>
+
+</html>

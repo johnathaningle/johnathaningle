@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web-development on John Ingle - Software Development</title>
+    <link>https://johnathaningle.github.io/tags/web-development/</link>
+    <description>Recent content in web-development on John Ingle - Software Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://johnathaningle.github.io/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple Derivatives in Python</title>
+      <link>https://johnathaningle.github.io/posts/simple-derivatives-in-python/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/simple-derivatives-in-python/</guid>
+      <description>A rocket has been programmed to follow the path $y = x^2$ in space (from left to right along the curve, as seen in the margin figure), but an emergency has arisen and the crew must return to their base, which is located at coordinates (3, 5). At what point on the path $y = x^2$ should the captain turn off the engines so that the ship will coast along a path tangent to the curve to return to the base?</description>
+    </item>
+    
+    <item>
+      <title>Jupyter Notebooks in WordPress</title>
+      <link>https://johnathaningle.github.io/posts/jupyter-notebooks-in-wordpress/</link>
+      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/jupyter-notebooks-in-wordpress/</guid>
+      <description>The quickest way to embed your Jupyter notebooks in WordPress, or any web page, is to create a gist.
+ Ensure you have a GitHub account Go to: https://gist.github.com/ Give your gist a file name and include the .ipynb file extension (important) Using a text editor, copy the contents of your [filename].ipynb into the gist. Create the gist as a public gist. Share!  </description>
+    </item>
+    
+    <item>
+      <title>Testing the Embedding of Raw Html in Jupyter Notebooks</title>
+      <link>https://johnathaningle.github.io/posts/testing-the-embedding-of-raw-html-in-jupyter-notebooks/</link>
+      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/testing-the-embedding-of-raw-html-in-jupyter-notebooks/</guid>
+      <description>/**
+* Primary styles
+*
+* Author: Jupyter Development Team
+*/
+/** WARNING IF YOU ARE EDITTING THIS FILE, if this is a .css file, It has a lot
+* of chance of beeing generated from the ../less/[samename].less file, you can
+* try to get back the less file by reverting somme commit in history
+**/
+/*
+* We&amp;rsquo;ll try to get something pretty, so we
+* have some strange css to have the scroll bar on</description>
+    </item>
+    
+    <item>
+      <title>CS50 Web Development with Python and Javascript</title>
+      <link>https://johnathaningle.github.io/posts/cs50-web-development-with-python-and-javascript/</link>
+      <pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/cs50-web-development-with-python-and-javascript/</guid>
+      <description>Over the winter I had made it my mission to complete the CS50 web development course. I found that Harvard&amp;rsquo;s CS50 course was more than your usual YouTube tutorial! This class forces the student to learn on their own, think creatively and come up with their own ideas. For example project, one has a list of specifications that your program must meet. The specs cover everything from user logins, database search query&amp;rsquo;s, AJAX, API&amp;rsquo;s, version control and much much more!</description>
+    </item>
+    
+  </channel>
+</rss>

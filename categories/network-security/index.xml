@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>network-security on John Ingle - Software Development</title>
+    <link>https://johnathaningle.github.io/categories/network-security/</link>
+    <description>Recent content in network-security on John Ingle - Software Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://johnathaningle.github.io/categories/network-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Black Hat Python ARP Cache Poisioning With Scapy</title>
+      <link>https://johnathaningle.github.io/posts/black-hat-python-arp-cache-poisioning-with-scapy/</link>
+      <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/black-hat-python-arp-cache-poisioning-with-scapy/</guid>
+      <description>Below is a network security project I made on poisoning the ARP cache on a local area network. I successfully intercepted packets between my wireless router and my target windows host. All traffic was monitored and printed to the console. In the projects current revision, it has the ability to print out HTTP packets on port 80 that contain strings likely to indicate that a user submitted a username or password.</description>
+    </item>
+    
+  </channel>
+</rss>

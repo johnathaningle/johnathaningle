@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sympy on John Ingle - Software Development</title>
+    <link>https://johnathaningle.github.io/tags/sympy/</link>
+    <description>Recent content in sympy on John Ingle - Software Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://johnathaningle.github.io/tags/sympy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple Derivatives in Python</title>
+      <link>https://johnathaningle.github.io/posts/simple-derivatives-in-python/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/simple-derivatives-in-python/</guid>
+      <description>A rocket has been programmed to follow the path $y = x^2$ in space (from left to right along the curve, as seen in the margin figure), but an emergency has arisen and the crew must return to their base, which is located at coordinates (3, 5). At what point on the path $y = x^2$ should the captain turn off the engines so that the ship will coast along a path tangent to the curve to return to the base?</description>
+    </item>
+    
+    <item>
+      <title>Testing the Embedding of Raw Html in Jupyter Notebooks</title>
+      <link>https://johnathaningle.github.io/posts/testing-the-embedding-of-raw-html-in-jupyter-notebooks/</link>
+      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/testing-the-embedding-of-raw-html-in-jupyter-notebooks/</guid>
+      <description>/**
+* Primary styles
+*
+* Author: Jupyter Development Team
+*/
+/** WARNING IF YOU ARE EDITTING THIS FILE, if this is a .css file, It has a lot
+* of chance of beeing generated from the ../less/[samename].less file, you can
+* try to get back the less file by reverting somme commit in history
+**/
+/*
+* We&amp;rsquo;ll try to get something pretty, so we
+* have some strange css to have the scroll bar on</description>
+    </item>
+    
+  </channel>
+</rss>

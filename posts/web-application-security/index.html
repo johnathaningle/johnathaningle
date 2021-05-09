@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Web Application Security - John Ingle - Software Development </title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="referrer" content="no-referrer">
+    <meta name="description" content="" />
+    <meta property="og:site_name" content="John Ingle - Software Development" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://johnathaningle.github.io/posts/web-application-security/" />
+    <meta property="og:title" content="Web Application Security" />
+    <meta property="og:image" content="https://johnathaningle.github.io/" />
+    <meta property="og:description" content="" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <meta name="twitter:title" content="Web Application Security" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="https://johnathaningle.github.io/" />
+
+    <link rel="canonical" href="https://johnathaningle.github.io/posts/web-application-security/">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://johnathaningle.github.io/css/custom.css" />
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github-gist.min.css" integrity="sha512-od7JLoOTxM8w/HSKGzP9Kexc20K9p/M2zxSWsd7H1e4Ctf+8SQFtCWEZnW5u6ul5ehSECa5QmOk9ju2nQMmlVA==" crossorigin="anonymous" />
+    
+
+    
+
+    <link rel="shortcut icon"
+        href="https://johnathaningle.github.io/images/favicon.png">
+
+    
+    <link href="https://johnathaningle.github.io/index.xml" rel="alternate" type="application/rss+xml" title="John Ingle - Software Development" />
+    
+</head>
+
+<body>
+    
+    <div class="mt-xl header">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <a href="https://johnathaningle.github.io/">
+                    <h1 class="name">Johnathan Ingle</h1>
+                </a>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <ul class="nav nav-primary">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/">
+                        
+                        Home
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/about/">
+                        
+                        About
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/johnathaningle">
+                        
+                        GitHub
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.xml">
+                        
+                        Subscribe
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-lg-8">
+                    <h1 class="mx-0 mx-md-4">Web Application Security</h1>
+                    <div class="markdown">
+                        
+    <h3 id="rise-of-the-web-app">Rise of the Web App</h3>
+<p>Over the past few years we have seen tremendous growth in the rise of browser-based applications. Native applications are still popular however the trend is moving towards web apps that run directly from the browser.</p>
+<p>Web applications are convenient by the fact that all data can be synced between devices and stored in the cloud. Gone are the days of configuring, updating and syncing the data on native apps. The explosive growth in web application development appears to be fueled by a rise in frameworks such as node.js, react, Django, Flask, and others. The barrier to entry to creating powerful browser-based applications is significantly lower.</p>
+<p><img src="images/app-1024x680.jpeg" alt=""></p>
+<h4 id="the-dark-side">The Dark Side</h4>
+<p>The rapid innovation has come with a cost by the fact that many web applications contain vulnerabilities that compromise the integrity of software leaving the company and the user vulnerable to loss of confidential data. The reason why they are vulnerable is because it is hard to configure a firewall to prevent malicious activities because the service must be available to its users.</p>
+<h4 id="finding-vulnerabilities">Finding Vulnerabilities</h4>
+<p>A common tactic for exploring web application vulnerabilities is through scanning tools. Commercial vulnerability scanning tools offer automation of the scanning process. The Kali Linux Debian based operating system comes with numerous built in vulnerability testing tools.Learning the fundamentals of each tool will provide a foundation to successfully securing your web application.</p>
+<p>The tools provided with Kali Linux are beyond the scope of this article. Kali does provide the tools necessary to test a web application. Knowing what to look for is important when starting a security test. According to theOpen Web Application Security Project (OWASP) below are the most common webapplication security vulnerabilities:</p>
+<ol>
+<li>Code injection: hackers find ways to insert malicious executable code into legitimate traffic sent to an endpoint</li>
+<li>Broken authentication and session management:compromising user identities in a variety of ways</li>
+<li>Cross-site scripting: similar to code injection,but involving scripts instead, drawn from inappropriate sources</li>
+<li>Insecure direct object references: obtaining file access when it’s not actually authorized</li>
+<li>Security misconfiguration: a failure of the admin, sometimes as simple as leaving passwords as defaults</li>
+<li>Sensitive data exposure: failure to shield detain proportion to its business value or customer sensitivity</li>
+<li>Missing function level access control: failure to verify functions are actually limited by access rights</li>
+<li>Cross-site request forgery: compromising an unexpected web application by leveraging validated authentication information</li>
+<li>Components with known vulnerabilities: a vulnerable element, such as a Java class, hasn’t been patched</li>
+<li>Unvalidated redirects and forwards: sending web users to unexpected sites that serve hacker interests</li>
+</ol>
+<p>This is an extremely brief overview of SOME of the possible vulnerabilities.New risks are found daily. To get started a great book I recommend is <a href="https://amzn.to/2PopJzW">The Web Application Hackers Handbook</a> to gain more information on the subject. If you would like to practice testing applications on your own, experiment with <a href="http://www.dvwa.co.uk/">Damn Vulnerable Web App</a> and use penetration tools such as Burp, Grabber, Webscarab, Vega, etc.</p>
+<h4 id="the-future">The Future</h4>
+<p>Security measures will become more and more complex as time goes on. Everything from refrigerators to power plants is connected to the internet. Endpoints are diversifying, and everything is connected to one another. The popularity of cloud storage adds to the complexity as control over data is put into another companies hands. Security is only as strong as the weakest link. Security professionals will need to be more knowledgeable thanever to keep our data safe.</p>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="comments">
+    <div class="py-3 content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-lg-8">
+                    <div class="comments">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+
+    
+
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js" defer></script>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js" defer></script>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/stan.min.js" defer></script>
+        
+        <script>
+            window.addEventListener('load', function() {
+                hljs.initHighlighting();
+            }, true);
+        </script>
+    
+
+    
+
+    
+    
+        
+
+    
+</body>
+
+</html>

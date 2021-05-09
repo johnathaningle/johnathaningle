@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>coursera on John Ingle - Software Development</title>
+    <link>https://johnathaningle.github.io/tags/coursera/</link>
+    <description>Recent content in coursera on John Ingle - Software Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://johnathaningle.github.io/tags/coursera/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coursera Machine Learning Introduction Quiz</title>
+      <link>https://johnathaningle.github.io/posts/coursera-machine-learning-introduction-quiz/</link>
+      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/coursera-machine-learning-introduction-quiz/</guid>
+      <description>Question 1 A computer program is said to learn from experience E with respect to some task T and some performance measure P if its performance on T, as measured by P, improves with experience E. Suppose we feed a learning algorithm a lot of historical weather data, and have it learn to predict weather. In this setting, what is E?
+Answer The process of the algorithm examining a large amount of historical weather data.</description>
+    </item>
+    
+    <item>
+      <title>Supervised vs Unsupervised Learning</title>
+      <link>https://johnathaningle.github.io/posts/supervised-vs-unsupervised-learning/</link>
+      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/supervised-vs-unsupervised-learning/</guid>
+      <description>Supervised Learning In supervised learning, we are given a data set and already know what our correct output should look like, having the idea that there is a relationship between the input and the output.
+Supervised learning problems are categorized into &amp;ldquo;regression&amp;rdquo; and &amp;ldquo;classification&amp;rdquo; problems. In a regression problem, we are trying to predict results within a continuous output, meaning that we are trying to map input variables to some continuous function.</description>
+    </item>
+    
+  </channel>
+</rss>

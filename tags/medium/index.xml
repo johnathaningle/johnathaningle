@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>medium on John Ingle - Software Development</title>
+    <link>https://johnathaningle.github.io/tags/medium/</link>
+    <description>Recent content in medium on John Ingle - Software Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://johnathaningle.github.io/tags/medium/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing Anaconda on Ubuntu/Mint</title>
+      <link>https://johnathaningle.github.io/posts/installing-anaconda-on-ubuntu-mint/</link>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/posts/installing-anaconda-on-ubuntu-mint/</guid>
+      <description>This article documents how to install Anaconda on Debian based systems.
+Mint comes pre-installed with Python (Version 3.x) and legacy Python (Version 2.7). You can confirm the legacy version of Python is installed by opening up a terminal.
+In the terminal type:
+$ python
+For testing python 3.x installation, type:
+$ python3
+You will most likely see Python Version 3.x is also installed. You can use the 3.x Version of Python, but each time a new package needs to be downloaded, the $ pip3 install command must be used.</description>
+    </item>
+    
+  </channel>
+</rss>

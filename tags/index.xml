@@ -5,6 +5,223 @@
     <link>https://johnathaningle.github.io/tags/</link>
     <description>Recent content in Tags on John Ingle - Software Development</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://johnathaningle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://johnathaningle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>medium</title>
+      <link>https://johnathaningle.github.io/tags/medium/</link>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/medium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>andrew-ng</title>
+      <link>https://johnathaningle.github.io/tags/andrew-ng/</link>
+      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/andrew-ng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>answers</title>
+      <link>https://johnathaningle.github.io/tags/answers/</link>
+      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/answers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coursera</title>
+      <link>https://johnathaningle.github.io/tags/coursera/</link>
+      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/coursera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hints</title>
+      <link>https://johnathaningle.github.io/tags/hints/</link>
+      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/hints/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine-learning</title>
+      <link>https://johnathaningle.github.io/tags/machine-learning/</link>
+      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quiz</title>
+      <link>https://johnathaningle.github.io/tags/quiz/</link>
+      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/quiz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>calculus</title>
+      <link>https://johnathaningle.github.io/tags/calculus/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/calculus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>embedded</title>
+      <link>https://johnathaningle.github.io/tags/embedded/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/embedded/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>homework</title>
+      <link>https://johnathaningle.github.io/tags/homework/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/homework/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jupyter</title>
+      <link>https://johnathaningle.github.io/tags/jupyter/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/jupyter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mathematics</title>
+      <link>https://johnathaningle.github.io/tags/mathematics/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/mathematics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>numpy</title>
+      <link>https://johnathaningle.github.io/tags/numpy/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/numpy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://johnathaningle.github.io/tags/python/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scipy</title>
+      <link>https://johnathaningle.github.io/tags/scipy/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/scipy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sympy</title>
+      <link>https://johnathaningle.github.io/tags/sympy/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/sympy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web-development</title>
+      <link>https://johnathaningle.github.io/tags/web-development/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/web-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>automation</title>
+      <link>https://johnathaningle.github.io/tags/automation/</link>
+      <pubDate>Sun, 23 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>college</title>
+      <link>https://johnathaningle.github.io/tags/college/</link>
+      <pubDate>Sun, 23 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/college/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>overthinkingit</title>
+      <link>https://johnathaningle.github.io/tags/overthinkingit/</link>
+      <pubDate>Sun, 23 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/overthinkingit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>school</title>
+      <link>https://johnathaningle.github.io/tags/school/</link>
+      <pubDate>Sun, 23 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/school/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flask</title>
+      <link>https://johnathaningle.github.io/tags/flask/</link>
+      <pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/flask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://johnathaningle.github.io/tags/javascript/</link>
+      <pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software-engineering</title>
+      <link>https://johnathaningle.github.io/tags/software-engineering/</link>
+      <pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/tags/software-engineering/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
