@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>John Ingle - Software Development</title>
+    <link>https://johnathaningle.github.io/</link>
+    <description>Recent content on John Ingle - Software Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://johnathaningle.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://johnathaningle.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnathaningle.github.io/about/</guid>
+      <description>I’m a software engineer in Frederick Maryland. Currently learning as much as possible and blogging about it here!
+As a career, I work as a full stack web developer at iHire. We primarily work with Microsoft’y technologies. Here is our Stackshare page if you are interested in that sort of thing.
+For fun and profit, I’m diving into the world of software development where I’m learning about Python, statistics, machine learning, application architechure and more!</description>
+    </item>
+    
+  </channel>
+</rss>
