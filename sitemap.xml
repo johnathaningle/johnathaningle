@@ -2,19 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://johnathaningle.github.io/posts/helloworld/</loc>
-    <lastmod>2021-05-09T11:52:30-04:00</lastmod>
-  </url><url>
-    <loc>https://johnathaningle.github.io/</loc>
-    <lastmod>2021-05-09T11:52:30-04:00</lastmod>
-  </url><url>
-    <loc>https://johnathaningle.github.io/posts/</loc>
-    <lastmod>2021-05-09T11:52:30-04:00</lastmod>
-  </url><url>
     <loc>https://johnathaningle.github.io/categories/</loc>
     <lastmod>2019-12-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnathaningle.github.io/posts/installing-anaconda-on-ubuntu-mint/</loc>
+    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnathaningle.github.io/</loc>
     <lastmod>2019-12-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnathaningle.github.io/tags/medium/</loc>
@@ -24,6 +18,9 @@
     <lastmod>2019-12-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnathaningle.github.io/categories/post/</loc>
+    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnathaningle.github.io/posts/</loc>
     <lastmod>2019-12-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnathaningle.github.io/categories/python/</loc>

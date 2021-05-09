@@ -6,16 +6,7 @@
     <description>Recent content on John Ingle - Software Development</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 May 2021 11:52:30 -0400</lastBuildDate><atom:link href="https://johnathaningle.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello World</title>
-      <link>https://johnathaningle.github.io/posts/helloworld/</link>
-      <pubDate>Sun, 09 May 2021 11:52:30 -0400</pubDate>
-      
-      <guid>https://johnathaningle.github.io/posts/helloworld/</guid>
-      <description>This is an initial post. More content will come soon!</description>
-    </item>
-    
+    <lastBuildDate>Fri, 27 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://johnathaningle.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installing Anaconda on Ubuntu/Mint</title>
       <link>https://johnathaningle.github.io/posts/installing-anaconda-on-ubuntu-mint/</link>
