@@ -62,17 +62,6 @@ You will most likely see Python Version 3.x is also installed. You can use the 3
     </item>
     
     <item>
-      <title>Automate English 102</title>
-      <link>https://johnathaningle.github.io/posts/automate-english-102/</link>
-      <pubDate>Sun, 23 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://johnathaningle.github.io/posts/automate-english-102/</guid>
-      <description>English Paper Word Counter Count the words excluding perenthesis and quotations
-Get Word Count
-The number of words in your essay is:</description>
-    </item>
-    
-    <item>
       <title>CS50 Web Development with Python and Javascript</title>
       <link>https://johnathaningle.github.io/posts/cs50-web-development-with-python-and-javascript/</link>
       <pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate>
